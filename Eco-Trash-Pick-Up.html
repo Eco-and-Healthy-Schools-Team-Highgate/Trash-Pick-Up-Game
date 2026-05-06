@@ -176,6 +176,7 @@
             { name: 'Banana Peel', color: 0xffeb3b, target: 'compost' },
             { name: 'Chip Bag', color: 0x333333, target: 'garbage' },
             { name: 'Paper', color: 0xffffff, target: 'recycle' },
+            { name: 'dog poop', color: 0x964B00, target: 'garbage' },
             { name: 'Apple Core', color: 0x81c784, target: 'compost' }
         ];
 
@@ -245,7 +246,7 @@
             if (noob.position.y <= 0) { noob.position.y = 0; velocityY = 0; isGrounded = true; }
             if (keys[' '] && isGrounded) { velocityY = 0.28; isGrounded = false; }
 
-            const moveSpeed = 5;
+            const moveSpeed = 0.67;
             const dir = new THREE.Vector3();
             if (keys.w) dir.z -= 1; if (keys.s) dir.z += 1;
             if (keys.a) dir.x -= 1; if (keys.d) dir.x += 1;
