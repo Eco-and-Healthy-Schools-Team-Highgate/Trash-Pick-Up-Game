@@ -297,7 +297,7 @@
                 bins.forEach(bin => {
                     if (noob.position.distanceTo(bin.position) < 4) {
                         if (bin.userData.type === heldItemData.target) {
-                            score += 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+                            score += 5;
                             document.getElementById('score').innerText = `Score: ${score}`;
                         } else {
                             showScream(heldItemData.target);
