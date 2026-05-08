@@ -173,45 +173,12 @@
             createBin(30, 0x0CB729, 'eWaste')
         ];
 
-        const trashTypes = [
-            { name: 'Soda Can', color: 0xff4444, target: 'recycle' },
-            { name: 'Banana Peel', color: 0xffeb3b, target: 'compost' },
-            { name: 'Chip Bag', color: 0x333333, target: 'garbage' },
-            { name: 'Paper', color: 0xffffff, target: 'recycle' },
-            { name: 'Dog poop', color: 0x964B00, target: 'garbage' },
-            { name: 'Used Battery', color: 0x42546D, target: 'eWaste' },
-            { name: 'Car Battery', color: 0x42546D, target: 'eWaste' },
-            { name: 'Broken Glass', color: 0x41AFA7, target: 'Glass' },
-            { name: 'Plastic Bottle', color: 0x41AFA7, target: 'recycle' },
-            { name: 'Plastic Bag', color: 0x41AFA7, target: 'recycle' },
-            { name: 'News Paper', color: 0xFFFFFF, target: 'recycle' },
-            { name: 'Lightbulb', color: 0xFFFF00, target: 'eWaste' },
-            { name: 'Broken Computer', color: 0x42546D, target: 'eWaste' },
-            { name: 'cardboard', color: 0x964B00, target: 'recycle' },
-            { name: 'Dried up leaf', color: 0x964B00, target: 'compost' },
-            { name: 'Light Switch', color: 0xFFFF00, target: 'eWaste' },
-            { name: 'Bottle Caps', color: 0x217DB2, target: 'recycle' },
-            { name: 'Kitkat Wrappers', color: 0xFF0000, target: 'garbage' },
-            { name: 'wrappers', color: 0xFF0000, target: 'garbage' },
-            { name: 'Paper Plane', color: 0xFFFFFF, target: 'recycle' },
-            { name: 'Popcorn Bag', color: 0xFFFFFF, target: 'garbage, compost' },
-            { name: 'Use Mask', color: 0xFFFF00, target: 'garbage' },
-            { name: 'Broken plastic Toys', color: 0x1B3663, target: 'eWaste, garbage' },
-            { name: 'tinfoil', color: 0x999999, target: 'recycle' },
-            { name: 'Yogurt Bottle', color: 0xFF0000, target: 'recycle' },
-            { name: 'Use tissue', color: 0xFFFFFF, target: 'garbage' },
-            { name: 'Chip Bags', color: 0xFFFF00, target: 'garbage' },
-            { name: 'Broken Xbox X', color: 0x000000, target: 'eWaste' },
-            { name: 'Broken Playstation 5', color: 0xFFFFFF, target: 'eWaste' },
-            { name: 'CD Player', color: 0x000000, target: 'eWaste' },
-            { name: 'Broken CD Player', color: 0x000000, target: 'eWaste' },
-            { name: 'CD Disc', color: 0x000000, target: 'eWaste' },
-            { name: 'Brocken CD Disc', color: 0x000000, target: 'eWaste' },
-            { name: 'Brocken Playstation 4', color: 0x000000, target: 'eWaste' },
-            { name: 'Brocken Xbox S', color: 0x000000, target: 'eWaste' },
-            { name: 'Brocken Chromebook', color: 0x000000, target: 'eWaste' },
-            { name: 'Apple Core', color: 0x81c784, target: 'compost' }
-        ];
+        const response = await fetch(
+    'https://raw.githubusercontent.com/console12345craze/trash/refs/heads/main/trash.json'
+);
+        
+        const trashTypes = await response.json();
+            
 
         function spawnWave() {
             for(let i=0; i<5; i++) {
