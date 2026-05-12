@@ -43,5 +43,6 @@
             { name: 'Intel CPU', color: 0x999999, target: 'eWaste' },
             { name: 'Homework', color: 0xffffff, target: 'recycle' },
             { name: 'Lost Homework', color: 0xffffff, target: 'recycle' },
+            { name: 'Intel i9 cpu', color: 0x999999, target: 'eWaste' },
             { name: 'Apple Core', color: 0x81c784, target: 'compost' }
         ]
