@@ -45,6 +45,5 @@
             { name: 'Lost Homework', color: 0xffffff, target: 'recycle' },
             { name: 'Intel i9 cpu', color: 0x999999, target: 'eWaste' },
             { name: 'Door', color: 0xffffff, target: 'recycle' },
-            { name: 'test', color: 0xffffff, target: 'recycle' },
             { name: 'Apple Core', color: 0x81c784, target: 'compost' }
         ]
