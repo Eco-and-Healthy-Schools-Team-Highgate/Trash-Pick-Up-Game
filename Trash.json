@@ -40,5 +40,6 @@
             { name: 'keyboad', color: 0x000000, target: 'eWaste' },
             { name: 'printer', color: 0x000000, target: 'eWaste' },
             { name: 'School', color: 0x000000, target: 'garbage' },
+            { name: 'Intel CPU', color: 0x999999, target: 'eWaste' },
             { name: 'Apple Core', color: 0x81c784, target: 'compost' }
         ]
