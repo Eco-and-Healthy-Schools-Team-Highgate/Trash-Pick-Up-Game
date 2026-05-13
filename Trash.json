@@ -40,10 +40,11 @@
             { name: 'keyboad', color: 0x000000, target: 'eWaste' },
             { name: 'printer', color: 0x000000, target: 'eWaste' },
             { name: 'School', color: 0x000000, target: 'garbage' },
-            { name: 'Intel CPU', color: 0x999999, target: 'eWaste' },
+            { name: 'Intel(R) CPU', color: 0x999999, target: 'eWaste' },
             { name: 'Homework', color: 0xffffff, target: 'recycle' },
             { name: 'Lost Homework', color: 0xffffff, target: 'recycle' },
-            { name: 'Intel i9 cpu', color: 0x999999, target: 'eWaste' },
+            { name: 'Intel(R) i9 cpu', color: 0x999999, target: 'eWaste' },
             { name: 'Door', color: 0xffffff, target: 'recycle' },
+            { name: 'Intel(R) Celeron(R) N4000 CPU @ 1.10GHz (2 threads, 2.600GHz)', color: 0xffffff, target: 'eWaste' },
             { name: 'Apple Core', color: 0x81c784, target: 'compost' }
         ]
