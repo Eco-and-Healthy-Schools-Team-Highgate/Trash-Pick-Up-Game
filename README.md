@@ -1,9 +1,9 @@
 # Trash Pick Up Game
 Welcome to Highgate Eco and Healthy Schools Team's Trash Pick Up Game. We believe that a cleaner Playground Mean More Kids Playing. We Focuses on Clean environment.
 
-Updatad to V. 26.5.19
+Updatad to V. 26.6.9.1
 
-There are 50 entry in the Game in right now
+There are 51 entry in the Game in right now
 
 Contributors (1) Angus Lin
 
